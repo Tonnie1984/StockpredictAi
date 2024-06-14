@@ -1,4 +1,5 @@
 Predicción de Precios de Acciones
+
 Esta aplicación de escritorio predice el precio al cierre del dia actual de las acciones utilizando modelos de redes neuronales
 LSTM (Long Short-Term Memory).
 La aplicación obtiene datos históricos de acciones desde la API de Alpha Vantage, calcula varios indicadores técnicos y
@@ -6,7 +7,8 @@ utiliza estos datos para entrenar un modelo de predicción.
 Esta aplicación fue desarrollada con fines educativos y no como una herramienta financiera definitiva.
 
 
-Características
+Características:
+
 Entrada de Ticker de acción y clave API:
 Introduce el Ticker de la acción y la clave API para obtener datos históricos.
 Cálculo de indicadores técnicos: Calcula EMA, VWMA, ADX y el oscilador estocástico.
